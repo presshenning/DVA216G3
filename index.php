@@ -13,6 +13,6 @@
     </head>
     <body>
         <p>Detta är en sån där mening!! huehue</p>
-        <?php echo "jah är inte burk turk"?>
+        <?php echo "jah är inte turk turk"?>
     </body>
 </html>
