@@ -8,7 +8,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title></title>
+        <title>Bestest webbpage</title>
+        <h1>Sprängburk!</h1>
     </head>
     <body>
         <p>Detta är en sån där mening!! huehue</p>
