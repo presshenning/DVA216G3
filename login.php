@@ -1,4 +1,9 @@
 <?php 
+// TODO:
+// ADD PROTECTION
+// BETTER DESIGN
+// BETTER SQL QUERRY
+
     require_once ("Includes/session.php");
     require_once ("Includes/connection_info.php"); 
     require_once ("Includes/connect_database.php");
