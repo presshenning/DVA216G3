@@ -39,16 +39,28 @@
 <div id="login">
 <h2>Registration</h2>
 <form action="" method="post">
-<label>Email :</label>
-<input class="text" name="email" placeholder="email" type="text">
-<label>UserName :</label>
-<input class="text" name="username" placeholder="username" type="text">
-<label>Password :</label>
-<input class="password" name="fpass" placeholder="**********" type="password">
-<label>Password again :</label>
-<input class="password" name="lpass" placeholder="**********" type="password">
-<input name="submit" type="submit" value=" Login ">
-<span><?php echo $error; ?></span>
+    <table>
+        <tr>
+            <td><label>Email :</label></td>
+            <td><input class="text" name="email" placeholder="email" type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="username">UserName :</label></td>
+            <td><input class="text" name="username" placeholder="username" type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Password :</label></td>
+            <td><input class="password" name="fpass" placeholder="**********" type="password"></td>
+        </tr>
+        <tr>
+            <td><label>Password again :</label></td>
+            <td><input class="password" name="lpass" placeholder="**********" type="password"></td>
+        </tr>
+        <tr>
+            <td><input name="submit" type="submit" value=" Login "></td>
+            <td><span><?php echo $error; ?></span></td>
+        </tr>
+    </table>
 </form>
 </div>
 </div>
