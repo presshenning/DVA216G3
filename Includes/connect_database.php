@@ -1,5 +1,5 @@
 <?php
-    require_once ("/Includes/connectioninfo.php");
+    require_once ("/Includes/connection_info.php");
 
     // Create database connection
     $databaseConnection = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
